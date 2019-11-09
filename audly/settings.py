@@ -28,7 +28,7 @@ DEBUG = config('DEBUG', cast=bool)
 
 # ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
 
-ALLOWED_HOSTS=['2da86956.ngrok.io', '127.0.0.1']
+ALLOWED_HOSTS=['8b90a8fd.ngrok.io', '127.0.0.1']
 
 
 
