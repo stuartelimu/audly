@@ -3,9 +3,6 @@ from twilio.rest import Client
 import youtube_dl
 import os
 
-TWILIO_ACCOUNT_SID = 'ACe0d1aa56ae23fb3775045657146a32aa'
-TWILIO_AUTH_TOKEN = '8c3c0782d3e40102c1664fa449b9133f'
-
 client = Client(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
 
 ydl_opts = {
